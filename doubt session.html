@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="doubt session.css">
+    <script type="module" src="doubt session.js"></script>
+    <title>Doubt Session</title>
+</head>
+<body>
+
+    <header>
+        <h1>Doubt Session</h1>
+    </header>
+
+    <section id="doubt-form">    
+        <h2>Ask a Doubt</h2>
+        <form id="doubtForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="doubt">Doubt:</label>
+            <textarea id="doubt" rows="4" required></textarea>
+
+            <button type="submit">Submit Doubt</button>
+        </form>
+    </section>
+
+    <section id="doubt-list">
+        <h2>Doubts</h2>
+        <ul id="doubtList"></ul>
+    </section>
+
+    
+</body>
+</html>
